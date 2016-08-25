@@ -36,7 +36,8 @@ public class Test {
 	     // 获取存储的数据并输出
 	    // System.out.println("Stored string in redis:: "+ jedis.get("w3ckey"));
 	   // 获取存储的数据并输出
-	     
+		   // 获取存储的数据并输出	   // 获取存储的数据并输出	   // 获取存储的数据并输出
+		   // 获取存储的数据并输出
 
 	}
 
