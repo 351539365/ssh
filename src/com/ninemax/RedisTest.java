@@ -8,10 +8,10 @@ import redis.clients.jedis.Jedis;
 public class RedisTest {
 	
 	public void exec(){
-		//Á¬½Ó±¾µØµÄ Redis ·şÎñ
+		//è¿æ¥æœ¬åœ°çš„ Redis æœåŠ¡
 	      Jedis jedis = new Jedis("localhost");
 	      //System.out.println("Connection to server sucessfully");
-	      //ÉèÖÃ redis ×Ö·û´®Êı¾İ
+	      //è®¾ç½® redis å­—ç¬¦ä¸²æ•°æ®
 	      jedis.set("w3ckey", "Redis tutorial");
 	      
 	      Map<String, String> hash=new HashMap<String, String>();
@@ -24,6 +24,7 @@ public class RedisTest {
 	     // System.out.println(jedis.hvals("rules"));
 	      //System.out.println("seq:"+jedis.incr("seq"));
 	     // System.out.println("seq:"+jedis.incr("seq"));
+	     //æ·»åŠ æ³¨é‡Š
 	}
 
 }
